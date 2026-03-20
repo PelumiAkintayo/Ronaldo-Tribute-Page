@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cristiano Ronaldo | Tribute</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #7f1d1d, #14532d);
+  color: #f1f5f9;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10%;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #f1f5f9;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #22c55e;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 10%;
+  flex-wrap: wrap;
+}
+
+.hero-text h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #22c55e;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+.hero img:hover {
+  transform: scale(1.05);
+}
+
+/* SECTIONS */
+section {
+  padding: 4rem 10%;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #22c55e;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 2rem;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 1.5rem;
+  border-radius: 15px;
+  transition: 0.3s;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #22c55e;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+  background: rgba(0,0,0,0.5);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>CR7</h1>
+  <nav>
+    <a href="#career">Career</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#legacy">Legacy</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h2>Cristiano Ronaldo ⚽</h2>
+    <p>One of the greatest, and in my opinion the best footballer of all time.</p>
+    <p><strong>Born:</strong> February 5, 1985 | Portugal</p>
+  </div>
+
+  <img src="ronaldo kissing ucl trophy.jpg" alt="Cristiano Ronaldo">
+</section>
+
+<section id="career">
+  <h2>Career Journey</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Sporting CP</h3>
+      <p>Where it all began in Portugal. His talent quickly caught global attention.</p>
+    </div>
+
+    <div class="card">
+      <h3>Manchester United</h3>
+      <p>Rose to global fame, winning his first Ballon d'Or and multiple trophies.</p>
+    </div>
+
+    <div class="card">
+      <h3>Real Madrid</h3>
+      <p>Became a legend. All-time top scorer and won multiple Champions League titles.</p>
+    </div>
+
+    <div class="card">
+      <h3>Juventus</h3>
+      <p>Dominated Italian football and continued scoring consistently.</p>
+    </div>
+  </div>
+</section>
+
+<section id="achievements">
+  <h2>Achievements</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>🏆 Ballon d'Or</h3>
+      <p>5-time winner of the most prestigious individual award in football.</p>
+    </div>
+
+    <div class="card">
+      <h3>⚽ Goals</h3>
+      <p>
+        One of the highest goal scorers in football history.
+        At this moment in time, he has 965 goals.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Portugal</h3>
+      <p>Led Portugal to win the UEFA Euro 2016 and more.</p>
+    </div>
+  </div>
+</section>
+
+<section id="legacy">
+  <h2>Legacy</h2>
+  <p>
+    Cristiano Ronaldo is known not only for his incredible skill, but also his discipline,
+    work ethic, and dedication to greatness.
+  </p>
+</section>
+
+<footer>
+  <p>Tribute to Cristiano Ronaldo | CR7</p>
+</footer>
+
+</body>
+</html>
